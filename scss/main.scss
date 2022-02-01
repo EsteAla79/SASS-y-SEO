@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: wheat;
+}
+
+//Primero las variables//
+@import "./variables/colores";
+@import "./variables/extend";
+@import "./variables/mixin";
+@import "./variables/maps";
+
+@import "./secciones/header";
+@import "./secciones/index";
+@import "./secciones/actividades";
+@import "./secciones/contacto";
+@import "./secciones/footer";
+

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: wheat; }
+
+p {
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: black; }
+
+.ubicacion {
+  color: black;
+  font-weight: bold;
+  font-size: 18px; }
+
+.varietales {
+  color: green;
+  font-weight: bold;
+  font-size: 18px; }
+
+.produccion {
+  color: yellow;
+  font-weight: bold;
+  font-size: 18px; }
+
+.creador {
+  color: orange;
+  font-weight: bold;
+  font-size: 18px; }
+
+header {
+  height: 100px;
+  padding: 20px;
+  background-color: wheat; }
+
+main {
+  background-color: wheat; }
+
+@media (max-width: 768px) {
+  header {
+    background-color: wheat; }
+  .seccion2 {
+    height: 100%;
+    align-items: center;
+    grid-row-gap: 10px; } }
+
+@media (max-width: 575px) {
+  .header {
+    display: flex;
+    flex-direction: column; } }
+
+.section {
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  font-family: 'Azeret Mono', monospace; }
+
+img {
+  width: auto;
+  height: 500px; }
+
+h1 {
+  color: black;
+  font-size: 48px;
+  font-weight: 200;
+  text-transform: uppercase; }
+
+.carousel {
+  float: center;
+  margin: none; }
+
+.maps {
+  display: inline-flex;
+  padding: 15px; }
+
+.domicilio {
+  padding: 10px; }
+
+h2 {
+  padding: 20px; }
+
+footer {
+  height: 100px;
+  background-color: wheat;
+  padding: 20px;
+  border: 20px; }

@@ -1,0 +1,22 @@
+//Extend//
+p{
+    @extend %estiloParrafo;
+
+}
+
+.section {
+    justify-content: center;
+    align-items: center;
+    background-color: $colorFondo;
+    font-family: 'Azeret Mono', monospace;
+
+}
+
+img{
+    width: auto;
+    height: 500px;
+}
+//Mixin//
+h1 {
+    @include fontStyle ();
+}

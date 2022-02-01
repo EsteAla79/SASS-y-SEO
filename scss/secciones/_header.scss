@@ -1,0 +1,28 @@
+header {
+    height: 100px;
+    padding: 20px;
+    background-color: $colorFondo;
+}
+
+main {
+    background-color: $colorFondo;
+}
+
+@media (max-width: 768px){
+    header {
+        background-color: $colorFondo;   
+    }
+
+    .seccion2 {
+        height: 100%;
+        align-items: center;
+        grid-row-gap: 10px;
+    }
+}
+
+@media (max-width: 575px){
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+}

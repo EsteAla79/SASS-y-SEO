@@ -1,0 +1,20 @@
+//MAPS + EACH (bucle)//
+
+$textoResaltado: (
+    ubicacion:black,
+    varietales: green,
+    produccion: yellow,
+    creador: orange,
+
+
+
+);
+
+@each $frases, $color in $textoResaltado {
+    .#{$frases}{
+        color: $color;
+        font-weight: bold;
+        font-size: 18px;
+        
+    }
+}
