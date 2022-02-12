@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background-color: wheat; }
+  box-sizing: border-box; }
 
 p {
   font-size: 15px;
@@ -66,6 +65,17 @@ h1 {
   text-transform: uppercase;
   margin-block: 2cm; }
 
+.body {
+  background-color: wheat; }
+
+.carousel {
+  background-color: white; }
+
+.calesita {
+  display: block;
+  margin-left: 250px;
+  margin-right: 250px; }
+
 .maps {
   display: inline-flex;
   padding: 15px; }
@@ -85,3 +95,16 @@ footer {
   background-color: wheat;
   padding: 20px;
   border: 2cm; }
+
+.lightbox-false {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.container-fluid {
+  background-color: wheat; }
+
+.vino {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }

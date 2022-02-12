@@ -1,12 +1,16 @@
 .lightbox-false {
-    width: 200px;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-.vino1 {
-    width: 440px;
+.container-fluid {
+    background-color: wheat;
 }
 
-
+.vino {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
