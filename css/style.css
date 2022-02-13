@@ -3,106 +3,80 @@
   padding: 0;
   box-sizing: border-box; }
 
+a:hover {
+    background-color: wheat;
+    color: black;
+    font-weight: bold; }
+
+body {
+    background-color: wheat; }
+
+footer {
+      height: 100px;
+      background-color: wheat;
+      padding: 20px;
+      border: 2cm; }   
+
+
+h1 {
+    font-family: 'Azeret Mono', monospace;
+    color: black;
+    font-size: 56px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-block: 2cm; }  
+
+h2 {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 1cm;
+    margin-bottom: 1cm; }
+
 p {
-  font-size: 15px;
-  font-family: sans-serif;
-  line-height: 1.5;
-  color: black; }
+      font-size: 15px;
+      font-family: sans-serif;
+      line-height: 1.5;
+      color: black; }
+    
 
-.ubicacion {
-  color: black;
-  font-weight: bold;
-  font-size: 18px; }
-
-.varietales {
-  color: green;
-  font-weight: bold;
-  font-size: 18px; }
-
-.produccion {
-  color: yellow;
-  font-weight: bold;
-  font-size: 18px; }
+.carousel {
+        background-color: white; }
 
 .creador {
-  color: orange;
-  font-weight: bold;
-  font-size: 18px; }
+          color: black;
+          font-weight: bold;
+          font-size: 18px; }
+        
+.domicilio {
+        padding: 10px; }
 
-header {
-  height: 100px;
-  padding: 20px;
-  background-color: wheat; }
 
-@media (max-width: 768px) {
-  header {
-    background-color: wheat; } }
 
-@media (max-width: 575px) {
-  .header {
-    display: flex;
-    flex-direction: column; }
-  main {
-    display: flex;
-    flex-direction: column; } }
 
-.section {
-  justify-content: center;
-  align-items: center;
-  font-family: 'Azeret Mono', monospace; }
 
 .language {
   margin-top: 2rem; }
 
-img {
-  width: auto;
-  height: 500px; }
-
-h1 {
-  color: black;
-  font-size: 56px;
-  font-weight: 200;
-  text-transform: uppercase;
-  margin-block: 2cm; }
-
-.body {
-  background-color: wheat; }
-
-.carousel {
-  background-color: white; }
-
-.calesita {
-  display: block;
-  margin-left: 250px;
-  margin-right: 250px; }
-
-.maps {
-  display: inline-flex;
-  padding: 15px; }
-
-.domicilio {
-  padding: 10px; }
-
-h2 {
-  display: flex;
-  padding: 10px;
-  justify-content: center;
-  margin-top: 1cm;
-  margin-bottom: 1cm; }
-
-footer {
-  height: 100px;
-  background-color: wheat;
-  padding: 20px;
-  border: 2cm; }
-
 .lightbox-false {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+  display: flex;
+  margin: 50px;
+  padding: 20px; }
 
-.container-fluid {
-  background-color: wheat; }
+.produccion {
+    color: black;
+    font-weight: bold;
+    font-size: 18px; }
+
+.ubicacion {
+      color: black;
+      font-weight: bold;
+      font-size: 18px; }   
+
+.varietales {
+    color: black;
+    font-weight: bold;
+    font-size: 18px; }
 
 .vino {
   display: block;

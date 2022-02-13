@@ -1,25 +1,13 @@
-header {
-    height: 100px;
-    padding: 20px;
-    background-color: $colorFondo;
-}
-
-
-
-@media (max-width: 768px){
-    header {
-        background-color: $colorFondo;
-    }
+a:hover {
+    background-color: wheat;
+   
+    color: black;
+    font-weight: bold;
 
 }
 
-@media (max-width: 575px){
-    .header {
-        display: flex;
-        flex-direction: column;
-    }
-    main {
-        display: flex;
-        flex-direction: column;
-    }
-}
+
+
+
+
+  

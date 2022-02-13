@@ -1,26 +1,20 @@
-//Extend//
+
 p {
     @extend %estiloParrafo;
 
 }
 
-.section {
-    justify-content: center;
-    align-items: center;
+h1 {
+    
     font-family: 'Azeret Mono', monospace;
+    @include fontStyle ();
+}
+
+body {
+    background-color: $colorFondo;
 }
 
 .language {
     margin-top: 2rem;
 }
 
-img {
-    width: auto;
-    height: 500px;
-
-}
-
-//Mixin//
-h1 {
-    @include fontStyle ();
-}
