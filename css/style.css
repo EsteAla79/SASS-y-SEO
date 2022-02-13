@@ -3,82 +3,91 @@
   padding: 0;
   box-sizing: border-box; }
 
-a:hover {
-    background-color: wheat;
-    color: black;
-    font-weight: bold; }
-
-body {
-    background-color: wheat; }
-
-footer {
-      height: 100px;
-      background-color: wheat;
-      padding: 20px;
-      border: 2cm; }   
-
-
-h1 {
-    font-family: 'Azeret Mono', monospace;
-    color: black;
-    font-size: 56px;
-    font-weight: 200;
-    text-transform: uppercase;
-    margin-block: 2cm; }  
-
-h2 {
-    display: flex;
-    padding: 10px;
-    justify-content: center;
-    margin-top: 1cm;
-    margin-bottom: 1cm; }
-
 p {
-      font-size: 15px;
-      font-family: sans-serif;
-      line-height: 1.5;
-      color: black; }
-    
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: black; }
 
-.carousel {
-        background-color: white; }
+.ubicacion {
+  color: black;
+  font-weight: bold;
+  font-size: 18px; }
+
+.varietales {
+  color: black;
+  font-weight: bold;
+  font-size: 18px; }
+
+.produccion {
+  color: black;
+  font-weight: bold;
+  font-size: 18px; }
 
 .creador {
-          color: black;
-          font-weight: bold;
-          font-size: 18px; }
-        
-.domicilio {
-        padding: 10px; }
+  color: black;
+  font-weight: bold;
+  font-size: 18px; }
 
+a:hover {
+  background-color: wheat;
+  color: black;
+  font-weight: bold; }
 
+a {
+  margin-block: 0.5rem; }
 
+h1 {
+  font-family: 'Azeret Mono', monospace;
+  color: black;
+  font-size: 56px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-block: 2cm; }
 
+body {
+  background-color: wheat; }
 
 .language {
   margin-top: 2rem; }
+
+.carousel {
+  background-color: white; }
+
+.domicilio {
+  padding: 10px; }
+
+h3 {
+  border: 5px;
+  padding: 10px;
+  justify-content: center;
+  margin-block: 2cm; }
+
+.map {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+  width: 95%;
+  height: 95%; }
+
+footer {
+  height: 100px;
+  background-color: wheat;
+  padding: 20px;
+  border: 2cm; }
 
 .lightbox-false {
   display: flex;
   margin: 50px;
   padding: 20px; }
 
-.produccion {
-    color: black;
-    font-weight: bold;
-    font-size: 18px; }
-
-.ubicacion {
-      color: black;
-      font-weight: bold;
-      font-size: 18px; }   
-
-.varietales {
-    color: black;
-    font-weight: bold;
-    font-size: 18px; }
-
 .vino {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+h2 {
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2cm; }

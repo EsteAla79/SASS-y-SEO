@@ -1,3 +1,6 @@
+a {
+    margin-block: 0.5rem;
+}
 
 p {
     @extend %estiloParrafo;
@@ -12,9 +15,11 @@ h1 {
 
 body {
     background-color: $colorFondo;
+
 }
 
 .language {
     margin-top: 2rem;
 }
+
 
